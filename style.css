@@ -1,0 +1,14 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 100;
+    /* letter-spacing: 20px; */
+    line-height: 30px;
+    text-align: center;
+}
+.data{
+    background-image: url("https://en.wikipedia.org/wiki/File:Google_2015_logo.svg");
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+}

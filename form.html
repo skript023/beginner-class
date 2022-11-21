@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Test</title>
+</head>
+<body>
+    <form action="/login">
+        <label for="name">Name</label>
+        <input type="text" name="name">
+        <br>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        <label for="city"> City</label>
+        <select name="city" id="city">
+            <option value="jakarta">Jakarta</option>
+            <option value="bandung">Bandung</option>
+        </select>
+        <br>
+        <label for="sex">Sex</label>
+        <input type="radio" name="sex"> Male 
+        <input type="radio" name="sex"> Female
+        <br>
+        <label for="hobby">Hobby</label>
+        <input type="checkbox" name="Soccer">Soccer
+        <input type="checkbox" name="Basket" id="basket">Basket
+        <br>
+        <input type="button" name="button" value="Save">
+    </form>
+</body>
+</html>
